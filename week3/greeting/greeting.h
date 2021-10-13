@@ -1,0 +1,2 @@
+int greet(void);
+
