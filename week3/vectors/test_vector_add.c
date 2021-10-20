@@ -15,7 +15,7 @@ int main(void){
 	*/
 	assert(6==zvec[0]);
 	assert(2==zvec[1]);
-	assert(5==zvec[2]);
+	assert(5==zvec[1]);
 	/** If the assert worked, there wasn't an error so return 0
 	*/
 	return 0;
