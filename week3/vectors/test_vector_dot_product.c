@@ -8,6 +8,7 @@ int main(void) {
 	int xvec[SIZ]={1,2,3};
 	int yvec[SIZ]={5,0,2};
 	int result;
+	result=dot_product(xvec,yvec);
 	/** We want to check each element of the returned vector
 	*/
 	assert(11==result);
