@@ -7,6 +7,7 @@
 * noting of course that if your data needs bigger values, you have to
 * edit the source code and change the constantss defined here
 */
+
 #define COM_SIZ 60
 #define ARG_SIZ 1024
 #define RES_SIZ 1024
@@ -19,6 +20,7 @@
 	test_outputs <filename which contains test definitions>
 
 */
+
 int main(int argc, char *argv[]) {
 	FILE *fp;	/**<fp is a pointer to give access to the file 
 	descriptor of the pipe */
