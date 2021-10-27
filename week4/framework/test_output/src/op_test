@@ -1,0 +1,9 @@
+wc -l
+test_outputs.c
+108 test_outputs.c
+wc -l
+test_outputs.c
+82 test_outputs.c
+wc -l
+test_outputs.c
+108 Test_outputs.c
