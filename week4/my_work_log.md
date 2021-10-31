@@ -1,3 +1,36 @@
+1. $ cd ~;cd portfolio -- goes to home directory, then protfolio within that
+
+2. $ git switch master -- switches to master branch -- already on it
+
+3. $ mkdir -p week4/framework -- creates week4 directory, then framework directory within that
+
+4. $ cd week4/framework -- goes in to framework directory within week4  directory
+
+5. $ git branch framework -- creates framework branch off origin
+
+6. $ git switch framework -- switches to framework branch
+
+7. $ nano Makefile -- then (indent where there is a <tab>):
+
+feature:
+<tab>mkdir $(NAME) ;\
+<tab>cd $(NAME) && \
+<tab>mkdir bin doc src test lib config ;\
+<tab>echo “*” > bin/.gitignore ;\
+<tab>echo “*” > lib/.gitignore
+
+8. $ cat -vTE Makefile -- allows us to observe if we have put the tabs(indents) in the right place
+
+9. $ make feature NAME=test_output -- idk what this would do -- uses the Makefile feature to create a bunch of folders within directory test_output
+
+10. $ ls -al test_output -- shows us the files within test_output
+
+11. $ git add Makefile -- adds Makefile feature to git
+
+12. $ git commit -m "Setting up Makefile to create feature folders" -- commits the new change
+
+13. $ git push -- pushes changes to csgitlab
+
 14. $ cd test_output; cd src -- goes in to file src within test_output
 
 15. $ nano test_output.c -- then: 
