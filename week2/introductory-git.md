@@ -12,7 +12,7 @@
 
 6. $ echo hello > .gitignore -- puts hello in to .gitignore
 
-7. $ git add -A -- no idea what this
+7. $ git add -A -- no idea what this does -- it added all new files to git i think
 
 8. $ git status -- tells us that there is a new file '.gitignore' that has not been commited yet
 
@@ -96,6 +96,6 @@
 
 40. $ ls -al -- only portfolio backup remains
 
-41. $ git clone https://csgitlab.reading.ac.uk/sx004098/cs1pc20_portfolio portfolio --clones in from portfolio
+41. $ git clone https://csgitlab.reading.ac.uk/sx004098/cs1pc20_portfolio portfolio -- clones in from portfolio
 
 42. $ ls -al -- portfolio is back!!
